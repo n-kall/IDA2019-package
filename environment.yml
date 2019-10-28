@@ -4,4 +4,4 @@ dependencies:
 - tensorflow==1.14
 - pip
 - pip:
-  - tensorflow-probability==0.8.0
+  - tensorflow-probability==0.7.0

@@ -2,7 +2,7 @@ Package: IDA2019
 Type: Package
 Title: Useful functions and package imports for IDA-2019
 Version: 0.1.0
-Authors@R: 
+Authors@R:
     c(person(given = "Noa",
              family = "Kallioinen",
              role = c("aut", "cre"),
@@ -18,6 +18,7 @@ Depends:
   boot,
   brms,
   dplyr,
+  extraDistr,
   forcats,
   ggplot2,
   ggsignif,
@@ -31,4 +32,3 @@ Depends:
   Rlab,
   stringr,
   tidyr
-

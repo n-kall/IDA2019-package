@@ -16,13 +16,20 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Depends:
+  boot,
   brms,
   dplyr,
   forcats,
   ggplot2,
+  ggsignif,
   greta,
+  gridExtra,
+  naniar,
   purrr,
+  rcartocolor,
   readr,
+  reticulate,
+  Rlab,
   stringr,
   tidyr
 

@@ -1,4 +1,4 @@
-load_libraries()  <- function() {
+load_libraries <- function() {
     suppressPackageStartupMessages(library(tidyverse))
     suppressPackageStartupMessages(library(brms))
     suppressPackageStartupMessages(library(ggsignif))

@@ -1,6 +1,6 @@
 name: IDA2019
 dependencies:
-- python>=3.6
+- python>=3.6, <3.8
 - pip
 - pip:
   - tensorflow==1.14

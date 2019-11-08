@@ -3,5 +3,5 @@ dependencies:
 - python>=3.6
 - pip
 - pip:
-  -tensorflow==1.14
+  - tensorflow==1.14
   - tensorflow-probability==0.7.0

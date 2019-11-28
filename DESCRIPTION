@@ -14,7 +14,7 @@ Description: This package pulls in the required packages and datasets for the ID
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports:
+Depends:
   boot,
   brms,
   dplyr,

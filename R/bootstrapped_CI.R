@@ -7,7 +7,6 @@
 #' @importFrom purrr map_dbl
 #' @importFrom dplyr tibble
 #' @export
-#' 
 bootstrapped_CI <-  function(data_vector, n_resamples = 1000) {
   resampled_means <- map_dbl(seq(n_resamples), function(i) {
     mean(sample(x = data_vector, 

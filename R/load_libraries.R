@@ -1,3 +1,7 @@
+#' load all packages used in the book
+#'
+#' @return NULL
+#' @export
 load_libraries <- function() {
     suppressPackageStartupMessages(library(tidyverse))
     suppressPackageStartupMessages(library(brms))

@@ -14,7 +14,7 @@ Description: This package pulls in the required packages and datasets for the ID
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Depends:
+Imports:
   boot,
   brms,
   dplyr,
@@ -32,3 +32,5 @@ Depends:
   Rlab,
   stringr,
   tidyr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1

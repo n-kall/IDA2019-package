@@ -9,7 +9,7 @@
 #' @export
 #' 
 bootstrapped_CI <-  function(data_vector, n_resamples = 1000) {
-  map_dbl(seq(n_resamples), function(i) {
+  resampled_means <- map_dbl(seq(n_resamples), function(i) {
     mean(sample(x = data_vector, 
                 size = length(data_vector), 
                 replace = T)

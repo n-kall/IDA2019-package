@@ -3,7 +3,7 @@
 #' @param data_vector observed data to sample from
 #' @param n_resamples number of resamples to take
 #'
-#' @return JSON
+#' @return tibble
 #' @importFrom purrr map_dbl
 #' @importFrom dplyr tibble
 #' @export

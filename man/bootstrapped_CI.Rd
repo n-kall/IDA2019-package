@@ -2,7 +2,7 @@
 % Please edit documentation in R/bootstrapped_CI.R
 \name{bootstrapped_CI}
 \alias{bootstrapped_CI}
-\title{Produce bootstrapped 95% Confidence Interval}
+\title{Perform bootstrapping on variable}
 \usage{
 bootstrapped_CI(data_vector, n_resamples = 1000)
 }
@@ -12,8 +12,10 @@ bootstrapped_CI(data_vector, n_resamples = 1000)
 \item{n_resamples}{number of resamples to take}
 }
 \value{
-tibble
+A tibble containing mean of input and 95\% CI
 }
 \description{
-Produce bootstrapped 95% Confidence Interval
+Takes a numeric input, performs bootstrapping with a given number of resamples,
+computes 95\% Confidence Interval and returns a tibble with input mean and
+bootstrapped CI.
 }

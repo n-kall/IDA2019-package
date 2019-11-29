@@ -1,6 +1,17 @@
-#' load all packages used in the book
+#' Load all packages used in the book
 #'
-#' @return NULL
+#' @details Currently, the loaded packages are:
+#' \itemize{
+#'   \item{tidyverse}
+#'   \item{brms}
+#'   \item{ggsignif}
+#'   \item{gridExtra}
+#'   \item{Rlab}
+#'   \item{rcartocolor}
+#'   \item{extraDistr}
+#'   \item{boot}
+#'   \item{naniar}
+#' }
 #' @export
 load_libraries <- function() {
     suppressPackageStartupMessages(library(tidyverse))

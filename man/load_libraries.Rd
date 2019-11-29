@@ -2,10 +2,24 @@
 % Please edit documentation in R/load_libraries.R
 \name{load_libraries}
 \alias{load_libraries}
-\title{load all packages used in the book}
+\title{Load all packages used in the book}
 \usage{
 load_libraries()
 }
 \description{
-load all packages used in the book
+Load all packages used in the book
+}
+\details{
+Currently, these are:
+\itemize{
+\item{tidyverse}
+\item{brms}
+\item{ggsignif}
+\item{gridExtra}
+\item{Rlab}
+\item{rcartocolor}
+\item{extraDistr}
+\item{boot}
+\item{naniar}
+}
 }

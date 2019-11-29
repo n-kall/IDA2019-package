@@ -1,11 +1,16 @@
-#' Produce bootstrapped 95% Confidence Interval
+#' Perform bootstrapping on variable
+#' 
+#' Takes a numeric input, performs bootstrapping with a given number of resamples, 
+#' computes 95\% Confidence Interval and returns a tibble with input mean and 
+#' bootstrapped CI.
 #'
 #' @param data_vector observed data to sample from
 #' @param n_resamples number of resamples to take
 #'
-#' @return tibble
+#' @return A tibble containing mean of input and 95\% CI
 #' @importFrom purrr map_dbl
 #' @importFrom dplyr tibble
+#' @importFrom stats quantile
 #' @export
 bootstrapped_CI <-  function(data_vector, n_resamples = 1000) {
   resampled_means <- map_dbl(seq(n_resamples), function(i) {

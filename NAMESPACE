@@ -2,6 +2,13 @@
 
 export(bootstrapped_CI)
 export(load_libraries)
+export(theme_ida)
 importFrom(dplyr,tibble)
+importFrom(ggplot2,element_blank)
+importFrom(ggplot2,element_line)
+importFrom(ggplot2,element_rect)
+importFrom(ggplot2,element_text)
+importFrom(ggplot2,theme)
+importFrom(ggplot2,unit)
 importFrom(purrr,map_dbl)
 importFrom(stats,quantile)

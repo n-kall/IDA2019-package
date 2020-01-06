@@ -5,7 +5,7 @@
 \title{ggplot theme}
 \usage{
 theme_ida(title.size = 16, text.size = 14, legend.position = "top",
-  y.axis = TRUE, plot.margin = c(0.2, 0.1, 0.2, 0.1))
+  show.axis = FALSE, plot.margin = c(0.2, 0.1, 0.2, 0.1))
 }
 \arguments{
 \item{title.size}{font size of all title elements + facet labels}
@@ -14,7 +14,7 @@ theme_ida(title.size = 16, text.size = 14, legend.position = "top",
 
 \item{legend.position}{either one of "top", "bottom", "left" or "right"}
 
-\item{y.axis}{logical; show a solid y-axis?}
+\item{show.axis}{should axes be drawn? (TRUE, FALSE, "x", "y")}
 
 \item{plot.margin}{margin around entire plot (in cm of the top, right, bottom, and left margins)}
 }
